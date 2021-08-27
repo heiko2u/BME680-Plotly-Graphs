@@ -4,3 +4,13 @@
 
 
 Use plotly to display graphs for Temperature and Pressure using the BME680 sensor.
+
+
+
+temperature-pressure-humidity.py --> file is used for Data Aquisition. All the data is store as  CSV. ( Run in background & and use nohup)
+
+tempandhumiditygraph.py  --> Plotly scatter plot with range slider to display the data in a single page.
+
+status.sh --> A simple error detection script to check if the file is running in the background.
+
+
